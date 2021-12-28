@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #c5e4e7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tipInput {
+  height: 500px;
+  width: 574px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tipPercentages {
+  height: 158px;
+  width: 449px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tipCalculator {
+  width: 1103px;
+  height: 566px;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.tipButton {
+  color: #fff;
+  background: #00474b;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  height: 59px;
+  width: 136px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.customTipButton {
+  background-color: rgb(223, 230, 223);
+  color: #00474b;
+  border-radius: 8px;
+  text-align: center;
+  height: 59px;
+  width: 136px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+.tipButton:hover {
+  background: #9ee8df;
+}
+
+.calculatebody {
+  width: 478px;
+  height: 490px;
+  background: #00474b;
+  border-radius: 16px;
+}
+
+.btnsubmit {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 150px;
+  border: none;
+  cursor: pointer;
+}
+.billInput{
+  display: flex;
+  flex-direction: column;
+}
+
+.billInput input {
+  text-align: right;
+  background-color: rgb(223, 230, 223);
+  border-radius: 5px;
+  border-style: none;
+  height: 59px;
+  width: 449px;
+  font-size: 2.5rem;
+  padding-right: 10px;
+}
+
+.billInput label{
+  color: rgb(134, 175, 134);
+  text-align: left;
+  font-size: 1.5rem;
+}
+::placeholder {
+  color: rgb(134, 175, 134);
+}
+
+.amountDisplay {
+  text-align: right;
+  color: #21c3ab;
+  font-size: 72px;
+}
+
+.amountTitle {
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+}
+
+.amount {
+  padding-top: 40px;
+  width: 449px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
